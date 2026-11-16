@@ -44,5 +44,4 @@ Fontes -> Python (coleta) -> SQLite (bruto) -> Apache Hop (ETL) -> PostgreSQL (t
 /clima, /precos, /safra, /correlacao, /alertas (documentação em /docs)
 
 ## Equipe
-Thiago Mafra Domingues
-Matheus Gabriel de Melo Tesch
+Thiago Mafra Domingues e Matheus Gabriel de Melo Tesch
