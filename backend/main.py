@@ -7,8 +7,8 @@ app = FastAPI(title="AgroClima")
 app.add_middleware(CORSMiddleware, allow_origins=["*"],
                    allow_methods=["*"], allow_headers=["*"])
 
-PG = ("dbname=agroclima user=postgres host=localhost port=5432 "
-      f"password={os.getenv('PG_PASSWORD', '')}")
+PG = ("dbname=agroclima user=postgres host=localhost "
+      f"port={os.getenv('PG_PORT', '5432')} password={os.getenv('PG_PASSWORD', '')}")
 
 # DuckDB lê direto do PostgreSQL (camada analítica)
 con = duckdb.connect()
@@ -76,7 +76,7 @@ def alertas():
                           "descricao": f"Previsão de {d['chuva_mm']} mm de chuva"})
     risco_clima = len(lista) > 0
 
-    for nome, cid in CULTURAS.items():
+    for nome, cid in {"café": 1, "milho": 2}.items():
         p = consulta("""SELECT preco::DOUBLE AS preco FROM pg.public.preco_diario
                         WHERE cultura_id = ? ORDER BY data DESC LIMIT 30""", [cid])
         if len(p) >= 2:
