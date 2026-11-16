@@ -1,0 +1,49 @@
+﻿"Tabela 1612 - Área plantada, área colhida, quantidade produzida, rendimento médio e valor da produção das lavouras temporárias"
+"Variável - Área colhida (Hectares)"
+"Brasil e Município";"Ano x Produto das lavouras temporárias"
+"Brasil e Município";"2015";;"2016";;"2017";;"2018";;"2019";;"2020";;"2021";;"2022";;"2023";;"2024";;"2025"
+"Brasil e Município";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)"
+"Brasil";"70142463";"15409183";"69627596";"14970502";"72914819";"17427206";"72610755";"16126368";"75327342";"17515920";"77721265";"18258981";"80302583";"18984300";"85165858";"21066401";"90173469";"22315010";"90718724";"21150584";"94859637";"22145776"
+"São João da Boa Vista (SP)";"14597";"4200";"13915";"4200";"14415";"4200";"13761";"4000";"13161";"4000";"13428";"4200";"13428";"4200";"13428";"4200";"11978";"3800";"12678";"1500";"13200";"1200"
+"Fonte: IBGE - Produção Agrícola Municipal"
+
+"Tabela 1612 - Área plantada, área colhida, quantidade produzida, rendimento médio e valor da produção das lavouras temporárias"
+"Variável - Quantidade produzida (Toneladas)"
+"Brasil e Município";"Ano x Produto das lavouras temporárias"
+"Brasil e Município";"2015";;"2016";;"2017";;"2018";;"2019";;"2020";;"2021";;"2022";;"2023";;"2024";;"2025"
+"Brasil e Município";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)";"Total";"Milho (em grão)"
+"Brasil";"..";"85283700";"..";"64188314";"..";"97910658";"..";"82366531";"..";"101126409";"..";"103989735";"..";"88272116";"..";"109739898";"..";"131949711";"..";"114707260";"..";"141209998"
+"São João da Boa Vista (SP)";"..";"25600";"..";"25800";"..";"30600";"..";"29160";"..";"28800";"..";"30600";"..";"30600";"..";"30600";"..";"30400";"..";"7200";"..";"7200"
+"Fonte: IBGE - Produção Agrícola Municipal"
+
+"Notas"
+"1 - Os municípios sem informação para pelo menos um produto da lavoura temporária não aparecem nas listas;"
+"2 - A partir do ano de 2001 as quantidades produzidas dos produtos melancia e melão passam a ser expressas em toneladas. Nos anos anteriores eram expressas em mil frutos. O rendimento médio passa a ser expresso em Kg/ha. Nos anos anteriores era expresso em frutos/ha."
+"3 - Veja o documento AlteracoesUnidadesMedidaFrutas.pdf com as alterações de unidades de medida das frutíferas ocorridas em 2001 e a tabela de conversão fruto x quilograma."
+"4 - Os produtos girassol e triticale só apresentam informação a partir de 2005."
+"5 - A quantidade produzida de abacaxi é expressa em mil frutos e o rendimento médio em frutos/ha."
+"6 - Valores para a categoria Total indisponíveis para as variáveis Quantidade produzida e Rendimento médio, pois as unidades de medida diferem para determinados produtos."
+"7 - Subentende a possibilidade de cultivos sucessivos ou simultâneos (simples, associados e/ou intercalados) no mesmo ano e no mesmo local, podendo, por isto, a área informada da cultura exceder a área geográfica do município."
+"8 - As culturas de abacaxi, cana-de-açúcar, mamona e mandioca são consideradas culturas temporárias de longa duração. Elas costumam ter ciclo vegetativo que ultrapassa 12 meses e, por isso, as informações são computadas nas colheitas realizadas dentro de cada ano civil (12 meses).
+Nestas culturas a área plantada refere-se a área destinada à colheita no ano."
+"9 - A diferença entre a área plantada e a área colhida na lavoura temporária é considerada como área perdida."
+"10 - A variável Área plantada só passou a ser informada a partir de 1988."
+"11 - Valor da produção: Variável derivada calculada pela média ponderada das informações de quantidade e preço médio corrente pago ao produtor, de acordo com os períodos de colheita e comercialização de cada produto. As despesas de frete, taxas e impostos não são incluídas no preço."
+"12 - Os dados do último ano divulgado são RESULTADOS PRELIMINARES e podem sofrer alterações até a próxima divulgação."
+""
+"Legenda"
+"Símbolo";"Significado"
+"-";"Zero absoluto, não resultante de um cálculo ou arredondamento.
+Ex: Em determinado município não existem pessoas de 14 anos de idade sem instrução."
+"0";"Zero resultante de um cálculo ou arredondamento.
+Ex: A inflação do feijão em determinada Região Metropolitana foi 0.
+Determinado município produziu 400 kg de sementes de girassol e os dados da tabela são expressos em toneladas."
+"X";"Valor inibido para não identificar o informante.
+Ex: Determinado município só possui uma empresa produtora de cimento, logo o valor de sua produção deve ser inibido."
+"..";"Valor não se aplica.
+Ex: Não se pode obter o total da produção agrícola em determinado município quando os produtos agrícolas são contabilizados com unidades de medida distintas."
+"...";"Valor não disponível.
+Ex: A produção de feijão em determinado município não foi pesquisada ou determinado município não existia no ano da pesquisa."
+"A a Z
+(exceto X)";"Significa uma faixa de valores. Varia em função da tabela (se for o caso).
+Ex: O nível de precisão da produção estimada de combustíveis está na faixa A (95 a 100%)"
